@@ -1,0 +1,20 @@
+---
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001
+#    consul:
+#      discovery:
+#        healthCheckPath: ${management.contextPath}/health
+#        healthCheckInterval: 15s 
+  application:
+    name: manufacturer-microservice
+  
+#shell:
+#  ssh:
+#    port: 9001
+          
+server:
+  port: 8002        
+
+ 
